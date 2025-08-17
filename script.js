@@ -1,18 +1,14 @@
 function highlight() {
-    //Write your code here
-	const boldWords = document.querySelectorAll("strong");
-	boldWords.forEach(word=>{
-		word.style.color="rgb(0,128,0)";
-	})
+  const strongTags = document.querySelectorAll("strong");
+  strongTags.forEach(tag => {
+    tag.style.color = "green";
+  });
 }
-
 
 function return_normal() {
-    //Write your code here
-	const boldWords = document.querySelectorAll("strong");
-	boldWords.forEach(word=>{
-		word.style.color="rgb(0,0,0)";
-	})
+  const strongTags = document.querySelectorAll("strong");
+  strongTags.forEach(tag => {
+    tag.style.color = "black";
+  });
 }
-    
-}
+
